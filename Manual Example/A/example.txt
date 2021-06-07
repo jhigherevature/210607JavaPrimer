@@ -1,0 +1,12 @@
+B/
+C/
+D/
+example.txt
+B/
+C/
+D/
+example.txt
+Hello World
+HeLLo Everyone
+hello guys
+revature says hello
