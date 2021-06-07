@@ -4,10 +4,11 @@ Github Repository for Revature Online Training Program Pre-Training
 
 # Environment Setup Guide
 ---
+> Navigate to the installation folder found in this repository for environment setup guides and instructional documents.
 
 ## Purpose
 
-> This document provides a list of the required technologies for anyone who will be participating in the Revature Online Training program. It details why each technology is required and provides some instructions on how to install and configure the technologies.
+> The installation documentation provides a list of the required technologies for anyone who will be participating in the Revature Online Training program. It details why each technology is required and provides some instructions on how to install and configure the technologies.
 
 ## Required Technologies
 
