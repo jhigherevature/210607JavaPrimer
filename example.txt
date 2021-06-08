@@ -11,3 +11,7 @@ git commit -m "message"
 git pull
 <resolve potential merge conflicts>
 git push
+
+Because of differences between commits, we will run into a merge conflict!
+It is worth noting, some merge conflicts can be resolved automatically, but
+not this one!
