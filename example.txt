@@ -3,3 +3,11 @@ To exit your current mode press ESC
 To save a file escape your current mode, and enter ':w'
 To quit vim use ':q'
 To save and quit use: ':wq' OR ':qw'
+
+When commiting changes to a repo, you want to follow these steps:
+
+git add .
+git commit -m "message"
+git pull
+<resolve potential merge conflicts>
+git push
