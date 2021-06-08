@@ -3,3 +3,7 @@ To exit your current mode press ESC
 To save a file escape your current mode, and enter ':w'
 To quit vim use ':q'
 To save and quit use: ':wq' OR ':qw'
+
+Some merge conflicts will need to be resolved manually
+Visual Studio Code provides tools that are fairly intuitive
+when resolving merge conflicts
