@@ -15,3 +15,6 @@ git push
 Because of differences between commits, we will run into a merge conflict!
 It is worth noting, some merge conflicts can be resolved automatically, but
 not this one!
+Some merge conflicts will need to be resolved manually
+Visual Studio Code provides tools that are fairly intuitive
+when resolving merge conflicts
