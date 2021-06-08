@@ -1,0 +1,5 @@
+Press 'i' to enter insert mode, so that you can type
+To exit your current mode press ESC
+To save a file escape your current mode, and enter ':w'
+To quit vim use ':q'
+To save and quit use: ':wq' OR ':qw'
