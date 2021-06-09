@@ -6,7 +6,7 @@ public class Data {
 	 * of a reference variable at an 
 	 * 'object/instance' level
 	 */
-	public Data data = new Data();
+//	public Data data = new Data();
 	
 	
 }
