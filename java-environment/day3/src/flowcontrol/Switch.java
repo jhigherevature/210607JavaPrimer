@@ -3,7 +3,7 @@ package flowcontrol;
 public class Switch {
 	/*
 	 * Switch statements are other flow control
-	 * statements that can be used to dictact the
+	 * statements that can be used to dictate the
 	 * actions/operations of our program.
 	 * 
 	 * Specifically, switch statements can be used if

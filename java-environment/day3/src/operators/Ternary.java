@@ -13,6 +13,7 @@ public class Ternary {
 	 * 	(condition) ? expr-return-if-true : expr-return-if-false
 	 */
 	public static void main(String[] args) {
+		
 		int x = true ? 15 : 25;
 		int y = false ? 15 : 25;
 		
