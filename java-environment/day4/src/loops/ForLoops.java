@@ -1,5 +1,7 @@
 package loops;
 
+import java.text.DecimalFormat;
+
 public class ForLoops {
 	public static void main(String[] args) {
 		/*
@@ -38,9 +40,15 @@ public class ForLoops {
 		 * }
 		 */
 		System.out.println("Enhanced For-loop");
-		for (int num : numbers) {
-			System.out.println(num);
+		for (int each : numbers) {
+			System.out.println(each);
 		}
+		
+//		DecimalFormat df = new DecimalFormat("#.00");
+//		double value = scan.nextDouble();
+//		double calculated = value / .75;
+//		String formatted = df.format(calculated);
+//		System.out.println("Your value is: " + formatted);
 		
 		int x = 0;
 		for ( ; ; ) {
