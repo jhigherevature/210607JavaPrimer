@@ -3,6 +3,16 @@ package algorithms;
 public class SelectionSort {
 	/* Simulator Method */
 	public static void main(String args[]) {
+		/*
+		 * First Loop:
+		 * 		{11, 34, 25, 12, 22, 64, 90}
+		 * Second Loop:
+		 * 		{11, 12, 25, 34, 22, 64, 90}
+		 * Third Loop:
+		 * 		{11, 12, 22, 34, 25, 64, 90}
+		 * Fourth Loop:
+		 * 		{11, 12, 22, 25, 34, 64, 90}
+		 */
 		int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
 		
 		System.out.println("Given Array");
