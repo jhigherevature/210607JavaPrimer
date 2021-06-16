@@ -29,6 +29,8 @@ public class Primitives {
 		
 		long big = 10; // implicit casting
 		int large = (int)big; // explicit casting
+		short small = (short)big; // explicit casting - only look at first 16 bits, ignore remaining 48
+		big = small;
 	}
 	
 	public void example() {
