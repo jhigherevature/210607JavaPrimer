@@ -39,6 +39,15 @@ public class RoomManager {
 			"Room 1 - Short Description",
 			"Room 1 - Long Description");
 		this.house[0] = room1;
+		
+		Room room2 = new Room(
+			"Kitchen",
+			"Room 2 - Short Description",
+			"Room 2 - Long Description");
+		this.house[1] = room2;
+		
+		Room[] room1Exits = new Room[]{room2, null, null, null};
+		room1.setExits(room1Exits);
 		// etc...
 	}
 	
@@ -54,6 +63,12 @@ public class RoomManager {
 	/*
 	 * Method used to retrieve a single room based on it's
 	 * name...
+	 * 
+	 * Look through the entire house (array of Room objects)
+	 * Compare the name of each Room Object to the parameter roomName
+	 * IF a match is found, return that Object from the house array
+	 * OTHERWISE Return null
+	 * 
 	 */
 	public Room getRoom(String roomName) {
 		// TODO: Add Implementation Details...

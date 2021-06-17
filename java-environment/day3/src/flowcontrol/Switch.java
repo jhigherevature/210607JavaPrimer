@@ -31,7 +31,7 @@ public class Switch {
 	 * keyword) 
 	 */
 	public static void main(String[] args) {
-		String letter = "B";
+		String letter = "A";
 		
 		switch (letter) {
 		default:

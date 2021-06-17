@@ -33,7 +33,7 @@ public class StringMethods {
 		 * that you provide as an argument
 		 */
 		String sentence = "Hello my name is Joseph!";
-		String[] words = sentence.split("e");
+		String[] words = sentence.split(" ");
 		for (String w : words) {
 			System.out.println(w);
 		}
