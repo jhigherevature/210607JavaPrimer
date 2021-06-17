@@ -27,7 +27,7 @@ public class Input {
 	 * 
 	 * Note: The 'split()' method of String objects can 
 	 * be used to provide an array of Strings from a 
-	 * single string.
+	 * single string. [scan.nextLine()]
 	 * 
 	 * String sentence = "Hello my name is Joseph";
 	 * String[] words = sentence.split(" ");

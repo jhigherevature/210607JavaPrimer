@@ -18,11 +18,11 @@ public class Pointer {
 	public static void main(String[] args) {
 		Pointer pnt = new Pointer();
 		pm.init();
+		
 		pnt.setTarget(pm.allPeople[0]);
 		System.out.println(pnt.getTarget().getName());
 		
 		pnt.setTarget(pm.allPeople[3]);
 		System.out.println(pnt.getTarget().getName());
-		
 	}
 }
