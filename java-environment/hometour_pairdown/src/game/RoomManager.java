@@ -48,6 +48,9 @@ public class RoomManager {
 		
 		Room[] room1Exits = new Room[]{room2, null, null, null};
 		room1.setExits(room1Exits);
+		
+		Room[] room2Exits = new Room[] {null, room1, null, null};
+		room2.setExits(room2Exits);
 		// etc...
 	}
 	
